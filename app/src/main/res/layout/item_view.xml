@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_button">
+
+    <ImageView
+        android:id="@+id/ImvPic"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="-1dp"
+        android:src="@drawable/caffe" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capuchino"
+            android:layout_weight="1"
+            android:textColor="#895D39"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/TvGia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="15.000d"
+                android:textColor="#895D39"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#885D39"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

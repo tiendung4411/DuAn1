@@ -27,6 +27,7 @@
             android:layout_marginBottom="10dp"
             android:src="@drawable/logo" />
 
+
     </LinearLayout>
 
     <RelativeLayout
@@ -80,4 +81,18 @@
         android:background="@drawable/sweet" />
 
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="395dp"
+        android:layout_height="268dp"
+        android:layout_marginTop="70dp"/>
+
+
+    <Button
+        android:id="@+id/btnTiepTuc"
+        android:text="Tiếp Tục"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="300dp"/>
 </LinearLayout>
