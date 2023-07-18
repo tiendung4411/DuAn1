@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/layout">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/back" />
+
+
+        <ImageView
+            android:layout_width="330dp"
+            android:layout_height="160dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/logo" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/menu"
+        android:layout_width="390dp"
+        android:layout_height="79dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/menu" />
+
+    <ImageButton
+        android:id="@+id/coffee_cup_"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-57dp"
+        android:background="@drawable/coffee" />
+
+    <ImageButton
+        android:id="@+id/smoothie_1"
+        android:layout_width="25dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="145dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-38dp"
+        android:background="@drawable/smoothie" />
+
+    <ImageButton
+        android:id="@+id/bubble_tea"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="235dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-28dp"
+        android:background="@drawable/tea" />
+
+    <View
+        android:id="@+id/dessert_1"
+        android:layout_width="35dp"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="-22dp"
+        android:background="@drawable/sweet" />
+
+
+</LinearLayout>
