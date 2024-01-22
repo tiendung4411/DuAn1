@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/coffeeNav"
+        android:title="@string/action_coffee"
+        android:icon="@drawable/coffee_ic"
+        />
+    <item
+        android:id="@+id/juiceNav"
+        android:title="@string/action_juice"
+        android:icon="@drawable/blender"
+        />
+    <item
+        android:id="@+id/milkteaNav"
+        android:title="@string/action_milktea"
+        android:icon="@drawable/local_drink"
+        />
+    <item
+        android:id="@+id/dessertNav"
+        android:title="@string/action_dessert"
+        android:icon="@drawable/img"
+        />
+</menu>

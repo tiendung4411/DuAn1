@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DuAn1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_juice">Juice\n</string>
+    <string name="action_coffee">Coffee\n</string>
+    <string name="action_milktea">Milktea</string>
+    <string name="action_dessert">Dessert</string>
+</resources>
